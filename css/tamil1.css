@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: 'ProximaNovaRegular';
+	
+	src: url('./ProximaNovaRegular.eot');
+	src: local('ProximaNovaRegular'), url('./ProximaNovaRegular.woff') format('woff'), url('./ProximaNovaRegular.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_58703">Text with this font applied</p> */
+.fontsforweb_fontid_58703 {
+	font-family: 'ProximaNovaRegular' !important;
+}
+.h-sec{
+	padding: 0px;
+}
+.tamil-content{
+	width: 100%;
+	padding: 12px 16px;
+	border: 1px solid #0c4756;
+	margin-bottom: 20px;
+}
+h1{
+	text-align: center;
+	
+}
+@media (min-width: 320px) {
+	.tamil-content{
+		background-color: #e1e1e1;
+		color: #0c4756;
+	}
+	p{
+		font-family: verdana;
+		line-height: 2.5;
+		letter-spacing: 1px;
+	}
+	.d{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (min-width: 480px) {
+	.tamil-content{
+		background-color: #0c4756;
+		color: #e1e1e1;
+	}
+	p{
+		font-family: verdana;
+	}
+	.d{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (min-width: 576px) {
+	.tamil-content{
+		background-color: #e1e1e1;
+		color: #0c4756;
+	}
+	p{
+		font-family: verdana;
+	}
+	.d{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (min-width: 768px){
+	.tamil-content{
+		background-color: #0c4756;
+		color: #e1e1e1;
+	}
+	p{
+		font-family: verdana;
+	}
+	.d{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (min-width: 992px) {
+	.tamil-content{
+		background-color: #e1e1e1;
+		color: #0c4756;
+	}
+	p{
+		font-family: verdana;
+	}
+	.d{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (min-width: 1200px) {	
+	.tamil-content{
+		background-color: #0c4756;
+		color: #e1e1e1;
+	}
+	p{
+		font-family: verdana;
+	}	
+	.d{
+		width: 100%;
+		height: auto;
+	}
+}
